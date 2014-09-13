@@ -101,32 +101,38 @@ namespace actividad2_final_
                 if (AFP == "1")
                 {
                     Console.WriteLine();
-                    Console.WriteLine(sueldoimponible - (sueldoimponible * (11.44 / 100)));
+                    Console.WriteLine(""+(sueldoimponible - (sueldoimponible * (11.44 / 100))));
+                    sueldoimponible=(sueldoimponible - (sueldoimponible * (11.44 / 100)));
                 }
                 else if (AFP == "2")
                 {
                     Console.WriteLine();
-                    Console.WriteLine(sueldoimponible - (sueldoimponible * (11.48 / 100)));
+                    Console.WriteLine((sueldoimponible - (sueldoimponible * (11.48 / 100))));
+                    sueldoimponible = (sueldoimponible - (sueldoimponible * (11.48 / 100)));
                 }
                 else if (AFP == "3")
                 {
                     Console.WriteLine();
-                    Console.WriteLine(sueldoimponible - (sueldoimponible * (11.27 / 100)));
+                    Console.WriteLine((sueldoimponible - (sueldoimponible * (11.27 / 100))));
+                    sueldoimponible = (sueldoimponible - (sueldoimponible * (11.27 / 100)));
                 }
                 else if (AFP == "4")
                 {
                     Console.WriteLine();
-                    Console.WriteLine(sueldoimponible - (sueldoimponible * (10.77 / 100)));
+                    Console.WriteLine((sueldoimponible - (sueldoimponible * (10.77 / 100))));
+                    sueldoimponible = (sueldoimponible - (sueldoimponible * (10.77 / 100)));
                 }
                 else if (AFP == "5")
                 {
                     Console.WriteLine();
-                    Console.WriteLine(sueldoimponible - (sueldoimponible * (10.47 / 100)));
+                    Console.WriteLine(""+(sueldoimponible - (sueldoimponible * (10.47 / 100))));
+                    sueldoimponible = (sueldoimponible - (sueldoimponible * (10.47 / 100)));
                 }
                 else if (AFP == "6")
                 {
                     Console.WriteLine();
-                    Console.WriteLine(sueldoimponible - (sueldoimponible * (11.54 / 100)));
+                    Console.WriteLine((sueldoimponible - (sueldoimponible * (11.54 / 100))));
+                    sueldoimponible = (sueldoimponible - (sueldoimponible * (11.54 / 100)));
                 }
 
                 //Console.WriteLine("tu sistema de salud es: "+ ssalud);
